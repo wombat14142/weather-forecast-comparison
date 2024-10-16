@@ -1,0 +1,16 @@
+<!-- dashboard.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dash Dashboard in Django</title>
+  </head>
+  <body>
+    <h1>Dashboard Page</h1>
+    {% load plotly_dash %}
+    <!-- Render the Dash app here -->
+    {% plotly_app name="SimpleDashboard" %}
+  </body>
+</html>

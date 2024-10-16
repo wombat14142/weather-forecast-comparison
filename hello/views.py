@@ -26,3 +26,6 @@ def db(request):
     greetings = Greeting.objects.all()
 
     return render(request, "db.html", {"greetings": greetings})
+
+def dashboard_view(request):
+    return render(request, 'dashboard.html')

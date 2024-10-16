@@ -2,4 +2,8 @@ psycopg2==2.9.9
 requests==2.32.3
 urllib3==2.2.3
 dash==2.18.1
-gunicorn==23.0.0
+gunicorn>=23,<24
+
+django>=5.1,<5.2
+dj-database-url>=2,<3
+whitenoise[brotli]>=6,<7

@@ -1,0 +1,10 @@
+# Python files
+__pycache__/
+.conda/
+
+# Django files
+staticfiles/
+db.sqlite3
+
+# macOS files
+.DS_Store
